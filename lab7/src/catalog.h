@@ -11,7 +11,6 @@ public:
     void load(string path);
     Product* get(int id) const;
     vector<Product*> list() const;
-    Catalog & operator+=(Product *product);
 private:
     vector<Product*> products;
 };
